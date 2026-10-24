@@ -242,3 +242,11 @@ async def main():
         observer.stop()
         observer.join()
         await app.stop()
+
+
+if __name__ == "__main__":
+    try:
+        app.loop.run_until_complete(main())
+    except KeyboardInterrupt:
+        pass
+
