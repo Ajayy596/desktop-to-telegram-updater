@@ -1,0 +1,15 @@
+# Ignore Telegram Session Databases & Connection Tokens
+*.session
+*.session-journal
+
+# Ignore local configuration overrides
+config.env
+.env
+
+# Ignore runtime generated backup ledgers & session reports
+uploaded_files.txt
+backup_report.md
+
+# Ignore local system caching
+__pycache__/
+*.pyc
